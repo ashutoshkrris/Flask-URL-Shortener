@@ -9,6 +9,7 @@ flask-migrate = "*"
 flask-sqlalchemy = "*"
 python-decouple = "*"
 psycopg2 = "*"
+gunicorn = "*"
 
 [dev-packages]
 autopep8 = "*"
