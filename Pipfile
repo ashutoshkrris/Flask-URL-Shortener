@@ -8,6 +8,7 @@ flask = "*"
 flask-migrate = "*"
 flask-sqlalchemy = "*"
 python-decouple = "*"
+psycopg2 = "*"
 
 [dev-packages]
 autopep8 = "*"
