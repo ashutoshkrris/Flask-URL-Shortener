@@ -2,6 +2,8 @@
 
 Flask URL shortener is a tool that takes any URL and generates a shorter, more readable version like bit.ly.
 
+Checkout the website: [https://shorty-flask.herokuapp.com/](https://shorty-flask.herokuapp.com/)
+
 ### Demo Video
 
 Watch on YouTube: [https://www.youtube.com/watch?v=g6chXThUReU](https://www.youtube.com/watch?v=g6chXThUReU)
