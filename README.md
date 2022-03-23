@@ -10,7 +10,7 @@ Watch on YouTube: [https://www.youtube.com/watch?v=g6chXThUReU](https://www.yout
 
 ### Tutorials
 
-* On iRead: [https://ireadblog.com/posts/82/how-to-create-a-url-shortener-using-flask](https://ireadblog.com/posts/82/how-to-create-a-url-shortener-using-flask)
+* On iRead: [https://ireadblog.com/posts/140/how-to-create-a-url-shortener-using-flask](https://ireadblog.com/posts/140/how-to-create-a-url-shortener-using-flask)
 * On freeCodeCamp: [https://www.freecodecamp.org/news/python-tutorial-how-to-create-a-url-shortener-using-flask/](https://www.freecodecamp.org/news/python-tutorial-how-to-create-a-url-shortener-using-flask/)
 * On Personal Blog: [https://ashutoshkrris.hashnode.dev/how-to-create-a-url-shortener-using-flask](https://ashutoshkrris.hashnode.dev/how-to-create-a-url-shortener-using-flask)
 
