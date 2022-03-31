@@ -24,3 +24,19 @@ FLASK_APP=core
 ```
 
 While deploying the app, make sure you change the `APP_SETTINGS` to `config.ProductionConfig`.
+
+### Getting started
+
+Install python 3.9.x or above. 
+Install pipenv and activate a virtualenv via:
+
+    pip3 install pipenv
+    pipenv install
+    pipenv shell
+    
+
+Inside the pipenv shell, create a .env file then init db with
+
+    pip install python-dotenv
+    flask db migrate
+    flask run
