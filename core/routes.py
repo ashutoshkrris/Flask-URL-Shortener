@@ -3,7 +3,7 @@ from core.models import ShortUrls
 from core import app, db
 from random import choice
 import string
-from flask import render_template, request, flash, redirect, url_for
+from flask import render_template, request, flash, redirect, url_for, make_response
 
 
 def generate_short_id(num_of_chars: int):
@@ -33,10 +33,14 @@ def index():
         db.session.add(new_link)
         db.session.commit()
         short_url = request.host_url + short_id
+        resp = make_response(redirect(url_for('index')))
+        resp.set_cookie('short_url', short_url)
+        return resp
 
-        return render_template('index.html', short_url=short_url)
-
-    return render_template('index.html')
+    short_url = request.cookies.get('short_url')
+    resp = make_response(render_template('index.html', short_url=short_url))
+    resp.set_cookie('short_url', '')
+    return resp
 
 
 @app.route('/<short_id>')
